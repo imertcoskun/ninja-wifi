@@ -1,16 +1,16 @@
 Bu Reponun amacı Wi-Fi Pentestlerini otomotize bir hale getirmek için oluşturulmuş bir Repo'dur. Amaç; hem bir not defteri olarak kullanmak hem de eksik görülen yerleri eklemektir. Proje hala daha "geliştirilme aşamasında" olup henüz tam olarak çalışmamaktadır. Olması hedeflenen saldırı türleri;
 
-# Coffe - Latte Attack
-# Deauthentication Attack (Stress Testing)
-# PMKID Attack
-# SSL MITM Attack
-# Korek's Chop Chop Attack
-# Fragmantation And Hitre Attack
-# Hotsopt Attack
-# Detecting AP Spoffing
-# Detecting AP MAC Spoffing
-# WPA/WPA2/WEB Capture Handshake
-# Control Wi-Fi Card
+- Coffe - Latte Attack
+- Deauthentication Attack (Stress Testing)
+- PMKID Attack
+- SSL MITM Attack
+- Korek's Chop Chop Attack
+- Fragmantation And Hitre Attack
+- Hotsopt Attack
+- Detecting AP Spoffing
+- Detecting AP MAC Spoffing
+- WPA/WPA2/WEB Capture Handshake
+- Control Wi-Fi Card
 
 ------------------------------------------------------------
 Monitoring
@@ -21,9 +21,9 @@ monitor mod on
 
 root@mert:~# ifconfig wlan0 down
 root@mert:~# airmon-ng start wlan0
-# hata verirse bekle tekrar dene
-# iwconfig wlan0 mode monitor
-# use wlan0 instead of wlan0mon
+//hata verirse bekle tekrar dene
+//iwconfig wlan0 mode monitor
+//use wlan0 instead of wlan0mon
 root@mert:~# ifconfig wlan0 up
 ---------------------------------------------------------------------------------------
 Increase Wi-Fi TX Power
@@ -32,7 +32,7 @@ root@mert:~# iw reg set B0
 root@mert:~# iwconfig wlan0 txpower <NmW|NdBm|off|auto>
 #txpower is 30 (generally)
 #txpower is depends your country, please googling
-root@mert:~# iwconfig
+root@mert:~iwconfig
 ----------------------------------------------------------------------------------------------
 
 Change WiFi Channel #wifi çanıl seç
